@@ -3,6 +3,6 @@
   <div *ngFor="let journal of journals">
     <strong> {{ journal.title }}</strong>
     <p> {{ journal.content }}</p>
-    <!-- <a [routerLink]="['journal', journal._id]"> View Details </a> -->
+    <a [routerLink]="['journal', journal._id]"> View Details </a>
   </div>
 </div>
